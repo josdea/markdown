@@ -8,9 +8,10 @@
   },
   "author": "Josh Dean",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  },
   "devDependencies": {
-    "gulp": "^4.0.0",
     "gulp-footer": "^2.0.1",
     "gulp-header": "^2.0.5",
     "gulp-markdown-it": "^0.1.1"
