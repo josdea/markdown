@@ -13,10 +13,6 @@ gulp.task('markdown', function () {
     }));
 });
 
-// gulp.task('default',['markdown'], function () {
-//   gulp.watch('*.md', ['markdown']);
-// });
-
-// gulp.task('test', function () {
-// console.log("test");
-// });
+gulp.task('default', ['markdown'], function () {
+  gulp.watch('**/*.md', ['markdown']);
+});
