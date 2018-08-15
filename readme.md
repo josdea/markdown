@@ -12,6 +12,7 @@ Enter the following commands:
 
 ## Working
 - edit and create markdown files and as you save them they will create html files
+- HTML files aren't tracked by git.  As they will be overwritten when markdown files are changed.  Remove them from the gitignore file if you want them on github
 
 
 [getnode]: https://nodejs.org/en/download/
